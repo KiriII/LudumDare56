@@ -67,6 +67,13 @@ public class DragAndDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, ID
     public void OnDrag(PointerEventData eventData)
     {
         _rectTransform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
+        if (_rectTransform.anchoredPosition.y > 2500)
+        {
+            cameraObj.transform.localPosition = new Vector3(0, -10000, 50);
+            _canvasGroup.blocksRaycasts = true;
+            transform.localPosition = startPostion;
+            eventData.pointerDrag = null;
+        }
     }
 
     public void OnEndDrag(PointerEventData eventData)

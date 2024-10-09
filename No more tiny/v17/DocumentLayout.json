@@ -1,0 +1,289 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\No more tiny\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\draganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\creaturespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\creaturespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\tinycore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\tinycore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\magnifierstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\magnifierstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\laserdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\laserdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\laserstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\laserstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\creaturemagnifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\creaturemagnifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\laserswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\laserswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|c:\\projects\\no more tiny\\assets\\scr\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\mainui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\creaturerandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\creaturerandomizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|c:\\projects\\no more tiny\\assets\\scr\\lasercharger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\lasercharger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\tinyscalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\tinyscalecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\leverdraganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\leverdraganddrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|C:\\projects\\No more tiny\\assets\\scr\\creaturecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAAEC0A-4761-E51C-C68D-776A20E2821E}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\creaturecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LaserSwitch.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\LaserSwitch.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\LaserSwitch.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\LaserSwitch.cs",
+              "RelativeToolTip": "Assets\\scr\\LaserSwitch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:33:44.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainUI.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\MainUI.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\MainUI.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\MainUI.cs",
+              "RelativeToolTip": "Assets\\scr\\MainUI.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAEwCcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T09:39:02.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreatureMagnifier.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\CreatureMagnifier.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\CreatureMagnifier.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\CreatureMagnifier.cs",
+              "RelativeToolTip": "Assets\\scr\\CreatureMagnifier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T10:29:07.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MagnifierState.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\MagnifierState.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\MagnifierState.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\MagnifierState.cs",
+              "RelativeToolTip": "Assets\\scr\\MagnifierState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:35:52.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LaserDeath.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\LaserDeath.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\LaserDeath.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\LaserDeath.cs",
+              "RelativeToolTip": "Assets\\scr\\LaserDeath.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:59:14.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LaserState.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\LaserState.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\LaserState.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\LaserState.cs",
+              "RelativeToolTip": "Assets\\scr\\LaserState.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:30:00.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TinyCore.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\TinyCore.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\TinyCore.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\TinyCore.cs",
+              "RelativeToolTip": "Assets\\scr\\TinyCore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T10:00:26.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreatureSpawner.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\CreatureSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\CreatureSpawner.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\CreatureSpawner.cs",
+              "RelativeToolTip": "Assets\\scr\\CreatureSpawner.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T09:41:38.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DragAndDrop.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\DragAndDrop.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\DragAndDrop.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\DragAndDrop.cs",
+              "RelativeToolTip": "Assets\\scr\\DragAndDrop.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T10:13:43.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MonsterController.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\MonsterController.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\MonsterController.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\MonsterController.cs",
+              "RelativeToolTip": "Assets\\scr\\MonsterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T12:54:47.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreatureRandomizer.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\CreatureRandomizer.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\CreatureRandomizer.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\CreatureRandomizer.cs",
+              "RelativeToolTip": "Assets\\scr\\CreatureRandomizer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:00:03.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Launcher.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\Launcher.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\Launcher.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\Launcher.cs",
+              "RelativeToolTip": "Assets\\scr\\Launcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T10:00:18.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LaserCharger.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\LaserCharger.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\LaserCharger.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\LaserCharger.cs",
+              "RelativeToolTip": "Assets\\scr\\LaserCharger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T19:13:57.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TinyScaleController.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\TinyScaleController.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\TinyScaleController.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\TinyScaleController.cs",
+              "RelativeToolTip": "Assets\\scr\\TinyScaleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T10:28:09.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LeverDragAndDrop.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\LeverDragAndDrop.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\LeverDragAndDrop.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\LeverDragAndDrop.cs",
+              "RelativeToolTip": "Assets\\scr\\LeverDragAndDrop.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwCAAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T13:32:18.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreatureColor.cs",
+              "DocumentMoniker": "C:\\projects\\No more tiny\\Assets\\scr\\CreatureColor.cs",
+              "RelativeDocumentMoniker": "Assets\\scr\\CreatureColor.cs",
+              "ToolTip": "C:\\projects\\No more tiny\\Assets\\scr\\CreatureColor.cs",
+              "RelativeToolTip": "Assets\\scr\\CreatureColor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T13:08:16.344Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

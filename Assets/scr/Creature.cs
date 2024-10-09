@@ -5,15 +5,15 @@ using UnityEngine;
 public class Creature 
 {
     public readonly float needScale;
-    public readonly CreatureColor color;
+    public readonly int skin;
     public readonly int glaza;
     public readonly int smile;
     public readonly int hat;
 
-    public Creature(float needScale, CreatureColor color, int glaza, int smile, int hat)
+    public Creature(float needScale, int skin, int glaza, int smile, int hat)
     {
         this.needScale = needScale;
-        this.color = color;
+        this.skin = skin;
         this.glaza = glaza;
         this.smile = smile;
         this.hat = hat;

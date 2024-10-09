@@ -24,11 +24,12 @@ public class MainUI : MonoBehaviour
     public Text Stats;
     public Text Comment;
 
-    public Image monsterColor;
+    public GameObject monsterColor;
     public GameObject monsterGlaza;
     public GameObject monsterSmile;
     public GameObject monsterHat;
 
+    public GameObject currentSkin;
     public GameObject currentGlaza;
     public GameObject currentSmile;
     public GameObject currentHat;
@@ -63,23 +64,47 @@ public class MainUI : MonoBehaviour
     public void UpdateMonsterColor()
     {
         var monster = _tinyCore.GetMonsterColor();
-        var color = monster.color;
+        var color = monster.skin;
         monsterColor.gameObject.SetActive(true);
+        if (currentSkin is not null)
+        {
+            Destroy(currentSkin);
+        }
         switch (color)
         {
-            case CreatureColor.Red:
-                monsterColor.color = UnityEngine.Color.red;
+            case 0:
+                currentSkin = Instantiate(creatureSpawner.skins[0], monsterColor.transform);
+                currentSkin.transform.localScale = new Vector3(450, 450, 450);
                 break;
-            case CreatureColor.Green:
-                monsterColor.color = UnityEngine.Color.green;
+            case 1:
+                currentSkin = Instantiate(creatureSpawner.skins[1], monsterColor.transform);
+                currentSkin.transform.localScale = new Vector3(450, 450, 450);
                 break;
-            case CreatureColor.Blue:
-                monsterColor.color = UnityEngine.Color.blue;
+            case 2:
+                currentSkin = Instantiate(creatureSpawner.skins[2], monsterColor.transform);
+                currentSkin.transform.localScale = new Vector3(450, 450, 450);
                 break;
-            case CreatureColor.Yellow:
-                monsterColor.color = UnityEngine.Color.yellow;
+            case 3:
+                currentSkin = Instantiate(creatureSpawner.skins[3], monsterColor.transform);
+                currentSkin.transform.localScale = new Vector3(450, 450, 450);
                 break;
-            case CreatureColor.Empty:
+            case 4:
+                currentSkin = Instantiate(creatureSpawner.skins[4], monsterColor.transform);
+                currentSkin.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 5:
+                currentSkin = Instantiate(creatureSpawner.skins[5], monsterColor.transform);
+                currentSkin.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 6:
+                currentSkin = Instantiate(creatureSpawner.skins[6], monsterColor.transform);
+                currentSkin.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 7:
+                currentSkin = Instantiate(creatureSpawner.skins[7], monsterColor.transform);
+                currentSkin.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case -1:
                 monsterColor.gameObject.SetActive(false);
                 break;
         }
@@ -108,6 +133,18 @@ public class MainUI : MonoBehaviour
                 break;
             case 4:
                 currentGlaza = Instantiate(creatureSpawner.glaza[4], monsterGlaza.transform);
+                currentGlaza.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 5:
+                currentGlaza = Instantiate(creatureSpawner.glaza[5], monsterGlaza.transform);
+                currentGlaza.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 6:
+                currentGlaza = Instantiate(creatureSpawner.glaza[6], monsterGlaza.transform);
+                currentGlaza.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 7:
+                currentGlaza = Instantiate(creatureSpawner.glaza[7], monsterGlaza.transform);
                 currentGlaza.transform.localScale = new Vector3(450, 450, 450);
                 break;
             case -1:
@@ -141,6 +178,18 @@ public class MainUI : MonoBehaviour
                 currentSmile = Instantiate(creatureSpawner.smiles[4], monsterSmile.transform);
                 currentSmile.transform.localScale = new Vector3(450, 450, 450);
                 break;
+            case 5:
+                currentSmile = Instantiate(creatureSpawner.smiles[5], monsterSmile.transform);
+                currentSmile.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 6:
+                currentSmile = Instantiate(creatureSpawner.smiles[6], monsterSmile.transform);
+                currentSmile.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 7:
+                currentSmile = Instantiate(creatureSpawner.smiles[7], monsterSmile.transform);
+                currentSmile.transform.localScale = new Vector3(450, 450, 450);
+                break;
             case -1:
                 monsterSmile.SetActive(false);
                 break;
@@ -169,6 +218,18 @@ public class MainUI : MonoBehaviour
                 currentHat.transform.localScale = new Vector3(450, 450, 450);
                 break;
             case 4:
+                currentHat = Instantiate(creatureSpawner.hat[4], monsterHat.transform);
+                currentHat.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 5:
+                currentHat = Instantiate(creatureSpawner.hat[4], monsterHat.transform);
+                currentHat.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 6:
+                currentHat = Instantiate(creatureSpawner.hat[4], monsterHat.transform);
+                currentHat.transform.localScale = new Vector3(450, 450, 450);
+                break;
+            case 7:
                 currentHat = Instantiate(creatureSpawner.hat[4], monsterHat.transform);
                 currentHat.transform.localScale = new Vector3(450, 450, 450);
                 break;

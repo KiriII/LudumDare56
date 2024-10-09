@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9EAAEC0A-4761-E51C-C68D-776A20E2821E}</ProjectGuid>
+    <ProjectGuid>{28BC9379-349D-53D0-2643-5980BF7508A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,7 +64,6 @@
     <Compile Include="Assets\scr\LeverDragAndDrop.cs" />
     <Compile Include="Assets\scr\LaserState.cs" />
     <Compile Include="Assets\scr\TinyCore.cs" />
-    <Compile Include="Assets\scr\CreatureColor.cs" />
     <Compile Include="Assets\scr\Score.cs" />
     <Compile Include="Assets\scr\TutorialSkip.cs" />
     <Compile Include="Assets\scr\MonsterController.cs" />

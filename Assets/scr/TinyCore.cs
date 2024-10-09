@@ -38,7 +38,7 @@ public class TinyCore
             canNext = false;
             _currentCreature = CreatureRandomizer.GenerateCreature();
             OnCurrentCreatureChanged();
-            Debug.Log($"{_currentCreature.color} {_currentCreature.needScale}");
+            Debug.Log($"{_currentCreature.skin} {_currentCreature.needScale}");
         }
     }
 

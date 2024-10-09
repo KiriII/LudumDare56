@@ -6,7 +6,9 @@ using UnityEngine;
 
 public class MonsterController 
 {
-    private CreatureColor _monsterColor = CreatureColor.Empty;
+    private static readonly int MAX_SKIN_COUNT = 7;
+
+    private int _monsterColor = -1;
     private int glaza = -1;
     private int smile = -1;
     private int hat = -1;
@@ -17,7 +19,7 @@ public class MonsterController
 
     public bool CheckCreatureIsMonster(Creature creature)
     {
-        if (creature.color == _monsterColor || creature.glaza == glaza || creature.smile == smile || creature.hat == hat)
+        if (creature.skin == _monsterColor || creature.glaza == glaza || creature.smile == smile || creature.hat == hat)
         {
             Checked();
             return true;
@@ -36,26 +38,26 @@ public class MonsterController
         if (_checkCount == 5)
         {
             System.Random rand = new();
-            _monsterColor = (CreatureColor)rand.Next(Enum.GetValues(typeof(CreatureColor)).Length - 1);
+            _monsterColor = rand.Next(MAX_SKIN_COUNT);
             monsterChanged?.Invoke();
             //UnityEngine.Debug.Log($"MONSTER!!! {_monsterColor}");
         }
         if (_checkCount == 15)
         {
             System.Random rand = new();
-            glaza = rand.Next(4);
+            glaza = rand.Next(MAX_SKIN_COUNT);
             monsterChanged?.Invoke();
         }
         if (_checkCount == 25)
         {
             System.Random rand = new();
-            smile = rand.Next(4);
+            smile = rand.Next(MAX_SKIN_COUNT);
             monsterChanged?.Invoke();
         }
         if (_checkCount == 35)
         {
             System.Random rand = new();
-            hat = rand.Next(4);
+            hat = rand.Next(MAX_SKIN_COUNT);
             monsterChanged?.Invoke();
         }
         if (_checkCount > 35 && _checkCount % 10 == 0)
@@ -67,26 +69,26 @@ public class MonsterController
 
     private void RandomMonster()
     {
-        UnityEngine.Debug.Log("Randomize");
+        //UnityEngine.Debug.Log("Randomize");
         System.Random rand = new();
         var elem = rand.Next(3);
         switch (elem)
         {
             case 0:
                 System.Random rand1 = new();
-                _monsterColor = (CreatureColor)rand1.Next(Enum.GetValues(typeof(CreatureColor)).Length - 1);
+                _monsterColor = rand1.Next(MAX_SKIN_COUNT);
                 break;
             case 1:
                 System.Random rand2 = new();
-                glaza = rand2.Next(4);
+                glaza = rand2.Next(MAX_SKIN_COUNT);
                 break;
             case 2:
                 System.Random rand3 = new();
-                smile = rand3.Next(4);
+                smile = rand3.Next(MAX_SKIN_COUNT);
                 break;
             case 3:
                 System.Random rand4 = new();
-                hat = rand4.Next(4);
+                hat = rand4.Next(MAX_SKIN_COUNT);
                 break;
         }
     }

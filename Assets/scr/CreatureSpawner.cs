@@ -9,10 +9,12 @@ public class CreatureSpawner : MonoBehaviour
     [SerializeField]
     private GameObject _creaturePrefab;
 
+    public GameObject[] skins;
     public GameObject[] glaza;
     public GameObject[] smiles;
     public GameObject[] hat;
 
+    public GameObject[] skinsSprite;
     public GameObject[] glazaSprite;
     public GameObject[] smileSprite;
     public GameObject[] hatSprite;
@@ -54,46 +56,39 @@ public class CreatureSpawner : MonoBehaviour
     {
         var image = _currentCreatureObject.GetComponent<CreatureMagnifier>().creature.GetComponent<Image>();
         var imageForGlass = _currentCreatureObject.GetComponent<CreatureMagnifier>().creatureForMagnifierGlass.GetComponent<SpriteRenderer>();
-        switch (creature.color)
-        {
-            case CreatureColor.Red:
-                image.color = Color.red;
-                imageForGlass.color = Color.red;
-                break;
-            case CreatureColor.Green:
-                image.color = Color.green;
-                imageForGlass.color = Color.green;
-                break;
-            case CreatureColor.Blue:
-                image.color = Color.blue;
-                imageForGlass.color = Color.blue;
-                break;
-            case CreatureColor.Yellow:
-                image.color = Color.yellow;
-                imageForGlass.color = Color.yellow;
-                break;
-        }
-        switch (creature.glaza)
+        switch (creature.skin)
         {
             case 0:
-                Instantiate(glaza[0], image.gameObject.transform);
-                Instantiate(glazaSprite[0], imageForGlass.gameObject.transform);
+                Instantiate(skins[0], image.gameObject.transform);
+                Instantiate(skinsSprite[0], imageForGlass.gameObject.transform);
                 break;
             case 1:
-                Instantiate(glaza[1], image.gameObject.transform);
-                Instantiate(glazaSprite[1], imageForGlass.gameObject.transform);
+                Instantiate(skins[1], image.gameObject.transform);
+                Instantiate(skinsSprite[1], imageForGlass.gameObject.transform);
                 break;
             case 2:
-                Instantiate(glaza[2], image.gameObject.transform);
-                Instantiate(glazaSprite[2], imageForGlass.gameObject.transform);
+                Instantiate(skins[2], image.gameObject.transform);
+                Instantiate(skinsSprite[2], imageForGlass.gameObject.transform);
                 break;
             case 3:
-                Instantiate(glaza[3], image.gameObject.transform);
-                Instantiate(glazaSprite[3], imageForGlass.gameObject.transform);
+                Instantiate(skins[3], image.gameObject.transform);
+                Instantiate(skinsSprite[3], imageForGlass.gameObject.transform);
                 break;
             case 4:
-                Instantiate(glaza[4], image.gameObject.transform);
-                Instantiate(glazaSprite[4], imageForGlass.gameObject.transform);
+                Instantiate(skins[4], image.gameObject.transform);
+                Instantiate(skinsSprite[4], imageForGlass.gameObject.transform);
+                break;
+            case 5:
+                Instantiate(skins[5], image.gameObject.transform);
+                Instantiate(skinsSprite[5], imageForGlass.gameObject.transform);
+                break;
+            case 6:
+                Instantiate(skins[6], image.gameObject.transform);
+                Instantiate(skinsSprite[6], imageForGlass.gameObject.transform);
+                break;
+            case 7:
+                Instantiate(skins[7], image.gameObject.transform);
+                Instantiate(skinsSprite[7], imageForGlass.gameObject.transform);
                 break;
         }
         switch (creature.smile)
@@ -118,6 +113,18 @@ public class CreatureSpawner : MonoBehaviour
                 Instantiate(smiles[4], image.gameObject.transform);
                 Instantiate(smileSprite[4], imageForGlass.gameObject.transform);
                 break;
+            case 5:
+                Instantiate(smiles[5], image.gameObject.transform);
+                Instantiate(smileSprite[5], imageForGlass.gameObject.transform);
+                break;
+            case 6:
+                Instantiate(smiles[6], image.gameObject.transform);
+                Instantiate(smileSprite[6], imageForGlass.gameObject.transform);
+                break;
+            case 7:
+                Instantiate(smiles[7], image.gameObject.transform);
+                Instantiate(smileSprite[7], imageForGlass.gameObject.transform);
+                break;
         }
         switch (creature.hat)
         {
@@ -140,6 +147,53 @@ public class CreatureSpawner : MonoBehaviour
             case 4:
                 Instantiate(hat[4], image.gameObject.transform);
                 Instantiate(hatSprite[4], imageForGlass.gameObject.transform);
+                break;
+            case 5:
+                Instantiate(hat[5], image.gameObject.transform);
+                Instantiate(hatSprite[5], imageForGlass.gameObject.transform);
+                break;
+            case 6:
+                Instantiate(hat[6], image.gameObject.transform);
+                Instantiate(hatSprite[6], imageForGlass.gameObject.transform);
+                break;
+            case 7:
+                Instantiate(hat[7], image.gameObject.transform);
+                Instantiate(hatSprite[7], imageForGlass.gameObject.transform);
+                break;
+        }
+        switch (creature.glaza)
+        {
+            case 0:
+                Instantiate(glaza[0], image.gameObject.transform);
+                Instantiate(glazaSprite[0], imageForGlass.gameObject.transform);
+                break;
+            case 1:
+                Instantiate(glaza[1], image.gameObject.transform);
+                Instantiate(glazaSprite[1], imageForGlass.gameObject.transform);
+                break;
+            case 2:
+                Instantiate(glaza[2], image.gameObject.transform);
+                Instantiate(glazaSprite[2], imageForGlass.gameObject.transform);
+                break;
+            case 3:
+                Instantiate(glaza[3], image.gameObject.transform);
+                Instantiate(glazaSprite[3], imageForGlass.gameObject.transform);
+                break;
+            case 4:
+                Instantiate(glaza[4], image.gameObject.transform);
+                Instantiate(glazaSprite[4], imageForGlass.gameObject.transform);
+                break;
+            case 5:
+                Instantiate(glaza[5], image.gameObject.transform);
+                Instantiate(glazaSprite[5], imageForGlass.gameObject.transform);
+                break;
+            case 6:
+                Instantiate(glaza[6], image.gameObject.transform);
+                Instantiate(glazaSprite[6], imageForGlass.gameObject.transform);
+                break;
+            case 7:
+                Instantiate(glaza[7], image.gameObject.transform);
+                Instantiate(glazaSprite[7], imageForGlass.gameObject.transform);
                 break;
         }
     }

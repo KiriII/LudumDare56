@@ -38,26 +38,26 @@ public class MonsterController
         if (_checkCount == 5)
         {
             System.Random rand = new();
-            _monsterColor = rand.Next(MAX_SKIN_COUNT);
+            _monsterColor = rand.Next(0, MAX_SKIN_COUNT);
             monsterChanged?.Invoke();
             //UnityEngine.Debug.Log($"MONSTER!!! {_monsterColor}");
         }
         if (_checkCount == 15)
         {
             System.Random rand = new();
-            glaza = rand.Next(MAX_SKIN_COUNT);
+            glaza = rand.Next(0, MAX_SKIN_COUNT);
             monsterChanged?.Invoke();
         }
         if (_checkCount == 25)
         {
             System.Random rand = new();
-            smile = rand.Next(MAX_SKIN_COUNT);
+            smile = rand.Next(0, MAX_SKIN_COUNT);
             monsterChanged?.Invoke();
         }
         if (_checkCount == 35)
         {
             System.Random rand = new();
-            hat = rand.Next(MAX_SKIN_COUNT);
+            hat = rand.Next(0, MAX_SKIN_COUNT);
             monsterChanged?.Invoke();
         }
         if (_checkCount > 35 && _checkCount % 10 == 0)
@@ -76,19 +76,19 @@ public class MonsterController
         {
             case 0:
                 System.Random rand1 = new();
-                _monsterColor = rand1.Next(MAX_SKIN_COUNT);
+                _monsterColor = rand1.Next(0, MAX_SKIN_COUNT);
                 break;
             case 1:
                 System.Random rand2 = new();
-                glaza = rand2.Next(MAX_SKIN_COUNT);
+                glaza = rand2.Next(0, MAX_SKIN_COUNT);
                 break;
             case 2:
                 System.Random rand3 = new();
-                smile = rand3.Next(MAX_SKIN_COUNT);
+                smile = rand3.Next(0, MAX_SKIN_COUNT);
                 break;
             case 3:
                 System.Random rand4 = new();
-                hat = rand4.Next(MAX_SKIN_COUNT);
+                hat = rand4.Next(0, MAX_SKIN_COUNT);
                 break;
         }
     }

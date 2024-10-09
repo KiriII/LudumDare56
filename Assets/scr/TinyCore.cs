@@ -36,7 +36,8 @@ public class TinyCore
         if (canNext || force)
         {
             canNext = false;
-            _currentCreature = CreatureRandomizer.GenerateCreature();
+            var newCreature = (_currentCreature is not null) ? CreatureRandomizer.GenerateCreature(_currentCreature) : CreatureRandomizer.GenerateCreature(new Creature(0, 7, 7, 7, 7));
+            _currentCreature = newCreature;
             OnCurrentCreatureChanged();
             Debug.Log($"{_currentCreature.skin} {_currentCreature.needScale}");
         }
